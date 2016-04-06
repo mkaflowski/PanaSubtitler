@@ -1,0 +1,212 @@
+1
+00:00:01,000 --> 00:00:05,000
+Welkom bij <k>Subtitle</k>Creator!
+
+2
+00:00:10,000 --> 00:00:21,000
+Deze nieuwe versie heeft twee <k>hoofd</k>doelen. U kunt het gebruiken om:
+
+3
+00:00:31,000 --> 00:00:41,000
+1. Ondertiteling tekstbestanden op een bestaande DVD te tonen.
+
+4
+00:00:51,000 --> 00:00:59,000
+2. Voeg nieuwe ondertiteling toe aan een <k>DVD</k> zonder kopieerbeveiliging.
+
+5
+00:01:10,000 --> 00:01:20,000
+Laat me eerst uitleggen hoe u het kunt gebruiken als een DVD speler.
+
+6
+00:01:30,000 --> 00:01:40,000
+Controleer in het <u>Instellingen</u> menu of u hebt geselecteerd om ondertitels op de DVD te tonen.
+
+7
+00:01:50,000 --> 00:01:59,000
+Kies vervolgens Ctrl-O om een ondertiteling te openen.
+
+8
+00:02:10,000 --> 00:01:20,000
+Tenslotte kunt u de DVD openen via het paneel rechtsboven.
+
+9
+00:02:30,000 --> 00:02:40,000
+De ondertiteling zal nu op de DVD getoond worden.
+
+10
+00:02:50,000 --> 00:02:59,000
+Klik met uw rechtermuis op de DVD om het volledige scherm te gebruiken.
+
+11
+00:03:10,000 --> 00:03:20,000
+Als de synchronizatie niet correct is, lees dan verder en zie de tips beneden.
+
+12
+00:03:30,000 --> 00:03:40,000
+In het tweede geval, wanneer u een ondertiteling aan een DVD wilt toevoegen, lees verder.
+
+13
+00:03:50,000 --> 00:03:59,000
+Ik neem aan dat u reeds een DVD naar uw harde schijf heeft gecopiëerd.
+
+14
+00:04:10,000 --> 00:04:20,000
+De eenvoudigste manier om verder te gaan is door de DVD wizard te gebruiken.
+
+15
+00:04:30,000 --> 00:04:40,000
+U kunt deze vinden in het <u>Hulpmiddelen</u> menu.
+
+16
+00:04:50,000 --> 00:04:59,000
+De wizard gebruikt drie andere gratis programma's: PgcDemux, MuxMan en VobBIanker.
+
+17
+00:05:10,000 --> 00:05:20,000
+De eerste keer dat u de DVD wizard opent zal u gevraagd worden deze programma's te vinden op uw harde schijf.
+
+18
+00:05:30,000 --> 00:05:40,000
+Vervolgens zal de Wizard u vragen om de originele DVD te vinden.
+
+19
+00:05:50,000 --> 00:05:59,000
+Indien de DVD reeds enige ondertitelingen bevat zal PgcDemux deze eruit halen.
+
+20
+00:06:10,001 --> 00:06:20,001
+Dit is met name praktisch indien u uw ondertiteling dient te synchronizeren met de film.
+
+21
+00:06:30,000 --> 00:06:40,000
+Selecteer vervolgens uw taal en het ondertitelingsbestand.
+
+22
+00:06:50,000 --> 00:06:59,000
+SubtitleCreator's main hoofdvenster wordt weer getoond en de DVD begint te spelen.
+
+23
+00:07:10,001 --> 00:07:20,001
+Positioneer the ondertiteling allereerst door gebruik te maken van het rechter paneel
+
+24
+00:07:30,000 --> 00:07:40,000
+Indien gewenst kun u het font veranderen in het <u>Formatering</u> menu.
+
+25
+00:07:50,000 --> 00:07:59,000
+Nu komt het moeilijkste deel, de synchronizatie.
+
+26
+00:08:10,000 --> 00:08:20,000
+Indien de originele DVD ondertitelingen bevat, dan kunt u die het beste gebruiken.
+
+27
+00:08:30,001 --> 00:08:40,001
+Stop the film en open het <u>Synchronizatie<u> menu.
+
+28
+00:08:50,000 --> 00:08:59,000
+Laad een van de bestaande ondertitelingen.
+
+29
+00:09:10,000 --> 00:09:20,000
+Indien PgcDemux nog niet klaar is dient u even te wachten.
+
+30
+00:09:30,000 --> 00:09:40,000
+Als het Synchronizatievenster verschijnt hoeft u slechts bijpassende ondertitles links en rechts te selecteren.
+
+31
+00:09:50,000 --> 00:09:59,000
+Voeg ieder paar toe door op + te drukken.
+
+32
+00:10:10,000 --> 00:10:20,000
+Het is gewoonlijk voldoende om slechts een ondertitel aan het begin, en een aan het einde van het bestand te selecteren.
+
+33
+00:10:30,000 --> 00:10:40,000
+Wanneer u dat gedaan hebt kunt u <u>Synchronizeer</u> indrukken, en dat is alles!
+
+34
+00:10:50,000 --> 00:10:59,000
+U kunt uw resultaat verifiëren door dubbel te klikken op een ondertitel in het linker paneel.
+
+35
+00:11:10,001 --> 00:11:20,001
+Het zou nu automatisch de vertaalde ondertitel moeten selecteren in het rechter paneel.
+
+36
+00:11:30,000 --> 00:11:40,000
+Selecteer <u>Klaar</u> wanneer u gereed bent.
+
+37
+00:11:50,000 --> 00:11:59,000
+U bent er bijna: klik <u>Maak SUP en keer terug</u> in het rechter paneel.
+
+38
+00:12:10,000 --> 00:12:20,000
+Wanneer het Wizard venster verschijnt, druk op <u>Start</u> en ga een koffie drinken.
+
+39
+00:12:21,000 --> 00:12:30,000
+Na ongeveer 20 minuten zult u de nieuwe DVD aantreffen in de VIDEO_TS folder van uw DVD.
+
+40
+00:12:40,000 --> 00:12:50,000
+Laat me u tenslotte nog enkele tips geven:
+
+41
+00:13:10,000 --> 00:13:20,000
+TIP 1: U kunt ook de DVD zelf gebruiken om de DVD te synchronizeren. Kijk naar de DVD, pauzeer, en voeg de ondertitel toe die hier zou moeten EINDIGEN!
+
+42
+00:13:30,001 --> 00:13:40,000
+TIP 2: Als de DVD is gepauzeerd kunt u naar een geselecteerde ondertitel springen door op de groene pijl te klikken.
+
+43
+00:13:50,001 --> 00:13:59,001
+TIP 3: U kunt de tekst en tijd editen door er dubbel op te klikken.
+
+44
+00:14:10,002 --> 00:14:20,002
+TIP 4: U kunt ook <i>Italic</i> en <b>Bold</b> fonts gebruiken.
+
+45
+00:14:30,000 --> 00:14:40,000
+<L>TIP 5: Of juist grotere fonts!
+
+46
+00:14:50,000 --> 00:14:59,000
+TIP 6: SubtitleCreator probeert automatisch spatiëring aan te passen. Zet het uit indien u fouten krijgt, zoals $5,000.
+
+47
+00:15:30,000 --> 00:15:40,000
+TIP 8: NIEUW - U kunt bestaande ondertitels eenvoudig vertalen via het <u>Vertaal</u> menu.
+
+48
+00:15:50,000 --> 00:15:59,000
+TIP 9: U kunt bestaande DVD ondertitels herpositioneren via het SUP <u>Tool</u>.
+
+49
+00:16:10,000 --> 00:16:20,000
+TIP 10: U kunt de <u>Synchronizatie</u> ook aanpassen door een tijdsvertraging in te stellen, of naar een andere framerate te gaan.
+
+50
+00:16:30,000 --> 00:16:40,000
+TIP 11: Om speciale symbolen toe te voegen, zoals deze dubbele noot <s M/>, gebruik het "Invoegen van tekst" menu rechtsbeneden.
+
+51
+00:16:50,000 --> 00:16:59,000
+TIP 12: Indien u de standaard settings verandert, dan kunt u deze wijzigingen opslaan in het <u>Profielen</u> menu.
+
+52
+00:17:10,000 --> 00:17:20,000
+TIP 13: Iedere ondertitel kan apart gepositioneerd worden: ga naar het <u>Instellingen</u> menu en klik op "Pas veranderingent toe... ".
+
+53
+00:17:30,000 --> 00:17:40,000
+TIP 14: U kunt de GUI taal veranderen via het <u>Instellingen</u> menu.
+

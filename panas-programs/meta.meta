@@ -1,0 +1,2 @@
+MUXOPT --no-pcr-on-video-pid --new-audio-pes --demux --vbr  --vbv-len=500
+S_TEXT/UTF8, "D:\download\Catfish (2010)\Catfish (2010).srt",font-name="Arial",font-size=60,font-color=0xfff8f8f8,bottom-offset=70,font-border=5,text-align=center,video-width=1920,video-height=1080,fps=23.976

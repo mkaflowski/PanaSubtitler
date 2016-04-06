@@ -1,0 +1,224 @@
+1
+00:00:01,000 --> 00:00:05,000 <w 96,76,560,2 ci=9,6,2,8,1 t=15,15,15,15/w>
+Welcome to SubtitleCreator!
+
+2
+00:00:10,000 --> 00:00:21,000
+This new version serves two purposes. You can use it to:
+
+3
+00:00:31,000 --> 00:00:41,000
+1. Overlay subtitles on top of an existing DVD.
+
+4
+00:00:51,000 --> 00:00:59,000
+2. Add subtitles to an existing copyright-free DVD.
+
+5
+00:01:10,000 --> 00:01:20,000
+Let me first explain how to use it as a standalone DVD player.
+
+6
+00:01:30,000 --> 00:01:40,000
+Check that in the <u>Settings</u> menu, you have selected to overlay the subtitles.
+
+7
+00:01:50,000 --> 00:01:59,000
+Next, press Ctrl-O to open your subtitle file.
+
+8
+00:02:10,000 --> 00:01:20,000
+Finally, open the DVD using the left-most button on the DVD panel.
+
+9
+00:02:30,000 --> 00:02:40,000
+The subtitles will now be displayed on top of the DVD.
+
+10
+00:02:50,000 --> 00:02:59,000
+Right click the DVD to put it into Full screen mode.
+
+11
+00:03:10,000 --> 00:03:20,000
+If the synchronization is off, read on, and you will find some tips below.
+
+12
+00:03:30,000 --> 00:03:40,000
+In case you wish to add a subtitle to a DVD, read on.
+
+13
+00:03:50,000 --> 00:03:59,000
+I expect that you already have copied a DVD to your harddisk (e.g. by using the program <u>DVDshrink</u>).
+
+14
+00:04:10,000 --> 00:04:20,000
+The easiest way to proceed, which will work in most cases, is by using the DVD authoring wizard.
+
+15
+00:04:30,000 --> 00:04:40,000
+You can find it in the <u>Tools</u> menu or by pressing CTRL-W.
+
+16
+00:04:50,000 --> 00:04:59,000
+The wizard uses three great freeware tools, PgcDemux, MuxMan and VobBIanker.
+
+17
+00:05:10,000 --> 00:05:20,000
+The first time you open the Wizard, it will ask you to locate these tools on your disk.
+
+18
+00:05:30,000 --> 00:05:40,000
+Next, the wizard will ask you to open your copyright free DVD.
+
+19
+00:05:50,000 --> 00:05:59,000
+If the DVD already has some subtitles, PgcDemux will start to extract them.
+
+20
+00:06:10,001 --> 00:06:20,001
+This is useful when synchronizing your subtitles with the movie.
+
+21
+00:06:30,000 --> 00:06:40,000
+Now, select your subtitle's language and the subtitle file.
+
+22
+00:06:50,000 --> 00:06:59,000
+SubtitleCreator's main window is shown again, and the DVD will start playing.
+
+23
+00:07:10,001 --> 00:07:20,001
+First, position the subtitle vertically using the panel at the right.
+
+24
+00:07:30,000 --> 00:07:40,000
+If you want, you can change the font in the <u>Format</u> menu.
+
+25
+00:07:50,000 --> 00:07:59,000
+Now we are getting to the hardest bit, the synchronization.
+
+26
+00:08:10,000 --> 00:08:20,000
+If the original movie has some subtitles, it's best to use them.
+
+27
+00:08:30,001 --> 00:08:40,001
+Stop the movie and open the <u>Synchronize</u> menu.
+
+28
+00:08:50,000 --> 00:08:59,000
+Load one of the existing subtitles.
+
+29
+00:09:10,000 --> 00:09:20,000
+If PgcDemux is still busy extracting it, you have to wait a bit.
+
+30
+00:09:30,000 --> 00:09:40,000
+When the Synchronize window pops up, you just have to select matching subtitles left and right.
+
+31
+00:09:50,000 --> 00:09:59,000
+For each match, press the + button in the middle.
+
+32
+00:10:10,000 --> 00:10:20,000
+Normally, it's enough to select one match near the start of the movie, and one near the end.
+
+33
+00:10:30,000 --> 00:10:40,000
+Press <u>Synchronize</u>, and that's it! If you want, you can automatically set the vertical position here too.
+
+34
+00:10:50,000 --> 00:10:59,000
+You can verify the synchronization by double-clicking on a subtitle in the left panel.
+
+35
+00:11:10,001 --> 00:11:20,001
+It should automatically select the translated version in the right panel.
+
+36
+00:11:30,000 --> 00:11:40,000
+Press <u>Done</u> when you are satisfied.
+
+37
+00:11:50,000 --> 00:11:59,000
+You are almost there: press <u>Create SUP and return to wizard</u> in the right panel.
+
+38
+00:12:10,000 --> 00:12:20,000
+When the Wizard returns, press <u>Start</u> and have a coffee.
+
+39
+00:12:21,000 --> 00:12:30,000
+Afterwards, you will find your new DVD with subtitle in the VIDEO_TS directory of your movie.
+
+40
+00:12:40,000 --> 00:12:50,000
+Let me finish with a couple of tips:
+
+41
+00:13:10,000 --> 00:13:20,000
+TIP 1: For synchronization, you can also use the DVD sync window. Watch the movie, pause it, and insert the subtitle that should FINISH here.
+
+42
+00:13:30,001 --> 00:13:40,000
+TIP 2: When the movie is paused, you can select a subtitle and press the green arrow to jump to this subtitle in the movie.
+
+43
+00:13:50,001 --> 00:13:59,001
+TIP 3: You can edit the subtitle text, and time, by double-clicking on them, or using the <u>Edit</u> menu.
+
+44
+00:14:10,002 --> 00:14:20,002
+TIP 4: You can use <i>Italic</i> and <b>Bold</b> too.
+
+45
+00:14:30,000 --> 00:14:40,000
+<L>TIP 5: Large font is also possible!
+
+46
+00:14:50,000 --> 00:14:59,000
+TIP 6: SubtitleCreator automatically tries to fix spaces. Turn it off if you get errors with numbers, like $5,000.
+
+47
+00:15:10,000 --> 00:15:20,000
+TIP 7: SubtitleCreator automatically unselects sentences with @ or http. You can turn that off too (<u>Settings</u>).
+
+48
+00:15:30,000 --> 00:15:40,000
+TIP 8: You can translate existing DVD subtitles using the Translation <u>Tool</u> or using Google Translate.
+
+49
+00:15:50,000 --> 00:15:59,000
+TIP 9: You can reposition exsisting DVD subtitles using the SUP <u>Tool</u>.
+
+50
+00:16:10,000 --> 00:16:20,000
+TIP 10: You can also change the <u>Synchronization</u> using frame rate conversion or setting a delay.
+
+51
+00:16:30,000 --> 00:16:40,000
+TIP 11: To insert special symbols like a music symbol, type <s M/> or use the menu at the bottom right.
+
+52
+00:16:50,000 --> 00:16:59,000
+TIP 12: If you change the default settings, you can store them in the <u>Profile</u> menu.
+
+53
+00:17:10,000 --> 00:17:20,000
+TIP 13: Each subtitle's position can be set independently: go to the <u>Settings</u> menu and uncheck to select all subtitles.
+
+54
+00:17:30,000 --> 00:17:40,000
+TIP 14: You can change the GUI language in the <u>Settings</u> menu: if you wish to help by translating it, contact me at Erik.Vullings AT gmail.com.
+
+55
+00:17:40,000 --> 00:17:41,000
+Tip 15: You can also insert pictures that reside in the same directory as your text file, as the next example will show you.
+
+56
+00:17:45,000 --> 00:17:46,000 <w 494,86,160,5 /w>
+<p>Beard and Glasses.png</p>
+

@@ -1,0 +1,224 @@
+1
+00:00:01,000 --> 00:00:05,000 <w 96,76,560,2 ci=9,6,2,8,1 t=15,15,15,15/w>
+Bienvenue dans SubtitleCreator!
+
+2
+00:00:10,000 --> 00:00:21,000
+Cette nouvelle version a deux fonctions. Vous pouvez l'utiliser pour:
+
+3
+00:00:31,000 --> 00:00:41,000
+1. Afficher des sous-titres au-dessus d'un DVD existant.
+
+4
+00:00:51,000 --> 00:00:59,000
+2. Ajouter des sous-titres à un DVD sans-copyright existant.
+
+5
+00:01:10,000 --> 00:01:20,000
+Je vais d'abord vous expliquer comment l'utiliser comme un lecteur de DVD.
+
+6
+00:01:30,000 --> 00:01:40,000
+Vérifiez dans le menu <u>Paramètres</u>, que vous avez sélectionné Afficher les sous-titres par-dessus le DVD.
+
+7
+00:01:50,000 --> 00:01:59,000
+Ensuite, faites Ctrl-O pour ouvrir votre fichier de sous-titres.
+
+8
+00:02:10,000 --> 00:02:20,000
+Finalement, ouvrez le DVD à l'aide du bouton de gauche de la barre de contrôle DVD.
+
+9
+00:02:30,000 --> 00:02:40,000
+Les sous-titres seront désormais affichés par-dessus le DVD.
+
+10
+00:02:50,000 --> 00:02:59,000
+Cliquez sur le bouton droit de la souris si vous voulez jouer le DVD en plein écran.
+
+11
+00:03:10,000 --> 00:03:20,000
+Si vous avez des problèmes de synchronisation, vous pourrez trouver quelques astuces plus bas.
+
+12
+00:03:30,000 --> 00:03:40,000
+Si vous voulez ajouter un sous-titre à un DVD, c'est ici.
+
+13
+00:03:50,000 --> 00:03:59,000
+Vous devez d'abord copier un DVD sur votre disque dur (par exemple avec <u>DVDshrink</u>).
+
+14
+00:04:10,000 --> 00:04:20,000
+Le plus facile, et qui marche dans la plupart des cas, est d'utiliser l'assistant en création de DVD.
+
+15
+00:04:30,000 --> 00:04:40,000
+Il se trouve dans le menu <u>Outils</u> ou en cliquant sur CTRL-W.
+
+16
+00:04:50,000 --> 00:04:59,000
+L'assistant utilise trois graticiels extraordinaires, PgcDemux, MuxMan et VobBlanker.
+
+17
+00:05:10,000 --> 00:05:20,000
+La première fois que vous ouvrez l'assistant, il vous demandera l'emplacement de ces outils sur votre disque.
+
+18
+00:05:30,000 --> 00:05:40,000
+Ensuite, l'assistant vous demandera d'ouvrir votre DVD sans copyright.
+
+19
+00:05:50,000 --> 00:05:59,000
+Si le DVD a déja des sous-titres, PgcDemux va commencer par les extraire.
+
+20
+00:06:10,001 --> 00:06:20,001
+C'est pratique pour synchroniser vos sous-titres avec le film.
+
+21
+00:06:30,000 --> 00:06:40,000
+Maintenant, sélectionnez la langue de vos sous-titres et le fichier de sous-titres.
+
+22
+00:06:50,000 --> 00:06:59,000
+La fenêtre principale de SubtitleCreator apparaît à nouveau et le DVD va commencer à jouer.
+
+23
+00:07:10,001 --> 00:07:20,001
+Positionner d'abord les sous-titres verticalement en utilisant le panneau à droite.
+
+24
+00:07:30,000 --> 00:07:40,000
+Si vous le désirez, vous pouvez changer la police dans le menu <u>Format</u>.
+
+25
+00:07:50,000 --> 00:07:59,000
+C'est maintenant la partie la plus difficile, la synchronisation.
+
+26
+00:08:10,000 --> 00:08:20,000
+Si le film original a déja des sous-titres, c'est mieux de les utiliser.
+
+27
+00:08:30,001 --> 00:08:40,001
+Arrêtez le film et ouvrez le menu <u>Synchroniser</u>.
+
+28
+00:08:50,000 --> 00:08:59,000
+Chargez un des sous-titres existants.
+
+29
+00:09:10,000 --> 00:09:20,000
+Si PgcDemux est toujours en train de les extraire, vous allez devoir patienter.
+
+30
+00:09:30,000 --> 00:09:40,000
+Quand la fenêtre Synchroniser apparaît, il vous suffit de sélectionner les sous-titres en correspondance à gauche et à droite.
+
+31
+00:09:50,000 --> 00:09:59,000
+Pour chaque correspondance, appuyez sur le bouton +.
+
+32
+00:10:10,000 --> 00:10:20,000
+Normalement, sélectionnez une correspondance près du début du fichier de sous-titres et une près de la fin.
+
+33
+00:10:30,000 --> 00:10:40,000
+Cliquez sur <u>Synchroniser</u>, et ça y est! Vous pouvez aussi régler la position vertical automatiquement ici.
+
+34
+00:10:50,000 --> 00:10:59,000
+Vous pouvez vérifier la synchronisation en double-cliquant sur un sous-titre dans le panneau de gauche.
+
+35
+00:11:10,001 --> 00:11:20,001
+Cela devrait sélectionner automatiquement la version traduite du panneau de droite.
+
+36
+00:11:30,000 --> 00:11:40,000
+Cliquez sur <u>OK</u> quand vous avez fini.
+
+37
+00:11:50,000 --> 00:11:59,000
+Vours y êtes presque: cliquez sur <u>Créer SUP et retourner à l'assistant</u> dans le panneau de droite.
+
+38
+00:12:10,000 --> 00:12:20,000
+Quand l'assistant réapparaît, cliquez sur <u>Dém. </u> et allez prendre un café.
+
+39
+00:12:21,000 --> 00:12:30,000
+A la fin, vous obtiendrez un nouveau DVD avec sous-titres dans le répertoire VIDEO_TS de votre film.
+
+40
+00:12:40,000 --> 00:12:50,000
+Je vais finir avec quelques trucs:
+
+41
+00:13:10,000 --> 00:13:20,000
+TRUC 1: Pour la synchronisation, vous pouvez aussi utiliser la fenêtre de synchro. DVD. Regardez le film, mettez le en pause, et insérez le sous-titre qui devrait FINIR ici.
+
+42
+00:13:30,001 --> 00:13:40,000
+TRUC 2: Quand le film est en pause, vous pouvez sélectionner un sous-titre et cliquer sur la flèche verte pour sauter à ce sous-titre dans le film.
+
+43
+00:13:50,001 --> 00:13:59,001
+TRUC 3: Vous pouvez éditer le texte du sous-titre et ses instants de début et fin en double-cliquant dessus.
+
+44
+00:14:10,002 --> 00:14:20,002
+TRUC 4: Vous pouvez utiliser les <i>Italiques</i> et le <b>Gras</b> aussi.
+
+45
+00:14:30,000 --> 00:14:40,000
+<L>TRUC 5: Il est aussi possible d'écrire en gros!
+
+46
+00:14:50,000 --> 00:14:59,000
+TRUC 6: SubtitleCreator essaye de corriger automatiquement les espaces. Vous pouvez le désactiver en cas d'erreurs avec les nombres, comme $5,000.
+
+47
+00:15:10,000 --> 00:15:20,000
+TRUC 7: SubtitleCreator désélectionne automatiquement les phrases contenant @ ou http.
+
+48
+00:15:30,000 --> 00:15:40,000
+TRUC 8: Vous pouvez traduire des sous-titres de DVD existants avec <u>l'outil</u> Traduire.
+
+49
+00:15:50,000 --> 00:15:59,000
+TRUC 9: Vous pouvez repositionner les sous-titres de DVD avec <u>l'outil</u> SUP.
+
+50
+00:16:10,000 --> 00:16:20,000
+TRUC 10: Vous pouvez aussi changer la <u>Synchronisation</u> en utilisant la conversion de fréquence trame ou en mettant un délai.
+
+51
+00:16:30,000 --> 00:16:40,000
+TRUC 11: Pour insérer des symboles spéciaux comme un sylbole musical, tapez <s M/> ou utilisez le menu en bas à droite.
+
+52
+00:16:50,000 --> 00:16:59,000
+TRUC 12: Si vous changez les paramètres par défaut, vous pouvez les enregistrer dans le menu <u>Profils</u>.
+
+53
+00:17:10,000 --> 00:17:20,000
+TRUC 13: La position de chaque sous-titre peut être choisie indépendamment: allez dans le menu <u>Paramètres</u> et désélectionnez à tous les sous-titres.
+
+54
+00:17:30,000 --> 00:17:40,000
+TRUC 14: Vous pouvez changer la langue de l'interface utilisateur dans le menu <u>Paramètres</u> : si vous souhaitez aider à la traduire, contactez moi à l'adresse Erik. Vullings AT gmail. com.
+
+55
+00:17:40,000 --> 00:17:41,000
+TRUC 15: Vous pouvez aussi insérer des images qui se trouvent dans le même dossier que votre fichier texte, comme indiqué dans l'exemple qui suit.
+
+56
+00:17:45,000 --> 00:17:46,000 <w 494,86,160,5 /w>
+<p>Beard and Glasses.png</p>
+
