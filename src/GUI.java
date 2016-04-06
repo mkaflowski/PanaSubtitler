@@ -23,19 +23,15 @@ import java.awt.Font;
 
 public class GUI extends JFrame {
 
-	private JPanel mainPanel;
 	private JTextField tfFolderIm;
 	private JTextField tfFolderEx;
-	private JLabel lblExportFolder;
-	private JLabel lblFileList;
-	JTextArea tsFontInfo;
+	private JTextArea tsFontInfo;
 
-	String exportPath = "Drop folder to select export path";
-	String mkvmergePath = "Drop folder to select export path";
+	private String exportPath = "Drop folder to select export path";
+	private String mkvmergePath = "Drop folder to select export path";
 	private Preferences prefs;
 
 	private JTextField tfDropMkvmerge;
-	private JLabel lblMkvmergePath;
 
 	/**
 	 * Launch the application.
@@ -60,12 +56,12 @@ public class GUI extends JFrame {
 		setTitle("PanaSubtitler by Mateusz Kaflowski");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 788, 569);
-		mainPanel = new JPanel();
+		JPanel mainPanel = new JPanel();
 		mainPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		mainPanel.setLayout(null);
 		setContentPane(mainPanel);
 
-		lblFileList = new JLabel("File list");
+		JLabel lblFileList = new JLabel("File list");
 		lblFileList.setBounds(10, 123, 133, 14);
 		mainPanel.add(lblFileList);
 
@@ -78,7 +74,7 @@ public class GUI extends JFrame {
 		lblImportFolder.setBounds(10, 15, 192, 14);
 		mainPanel.add(lblImportFolder);
 
-		lblExportFolder = new JLabel("Export folder");
+		JLabel lblExportFolder = new JLabel("Export folder");
 		lblExportFolder.setBounds(10, 71, 133, 14);
 		mainPanel.add(lblExportFolder);
 
@@ -245,7 +241,7 @@ public class GUI extends JFrame {
 			}
 		});
 
-		lblMkvmergePath = new JLabel("MKVMerge path");
+		JLabel lblMkvmergePath = new JLabel("MKVMerge path");
 		lblMkvmergePath.setBounds(366, 15, 192, 14);
 		mainPanel.add(lblMkvmergePath);
 

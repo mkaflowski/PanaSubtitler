@@ -8,25 +8,25 @@ import java.util.ArrayList;
 import org.apache.commons.io.FilenameUtils;
 
 /**
- * Klasa do stworzenia pliku "program.bat" dodaj¹cego napisy idx do filmów i
- * tworz¹ce mkv w podanej œcie¿ce.
+ * Klasa do stworzenia pliku "program.bat" dodaj?cego napisy idx do film?w i
+ * tworz?ce mkv w podanej ?cie?ce.
  * 
  * @author Samsung
  * 
  */
 public class FileOperations {
 
-	PrintWriter writer;
+	private PrintWriter writer;
 	ArrayList<String> videoFilesList;
-	String mkvmergePath;
-	String scPath;
-	boolean ifMakeSUB;
+	private String mkvmergePath;
+	private String scPath;
+	private boolean ifMakeSUB;
 
 	boolean makeTSMuxerSubs = true;
 	String tsFontInfo;
 	String tsFontInfoDefault;
 
-	public FileOperations() {
+	FileOperations() {
 		videoFilesList = new ArrayList<String>();
 		ifMakeSUB = true;
 		tsFontInfoDefault = "font-name=\"Arial\",font-size=62,font-color=0xffFFFF33,bottom-offset=70,font-border=5,text-align=center,video-width=1440,video-height=1080,fps=23.976";
@@ -38,7 +38,7 @@ public class FileOperations {
 	 * 
 	 * @param videofile
 	 */
-	public void convertSRTtoSUBTS(String videofile) {
+	private void convertSRTtoSUBTS(String videofile) {
 		String srtFile = FilenameUtils.removeExtension(videofile) + ".srt";
 		String name = FilenameUtils.getBaseName(videofile);
 
@@ -86,7 +86,7 @@ public class FileOperations {
 	 * 
 	 * @param videofile
 	 */
-	public void convertSRTtoSUB(String videofile) {
+	private void convertSRTtoSUB(String videofile) {
 		String srtFile = FilenameUtils.removeExtension(videofile) + ".srt";
 		String ctext = "\"" + scPath + "\"" + " " + "\"" + srtFile + "\""
 				+ " -p1 -iVTS_01_0.IFO -vpl " + "\""
@@ -148,7 +148,7 @@ public class FileOperations {
 		writer.println(ctext);
 		// ------
 
-		// zmiana settingsów:
+		// zmiana settings?w:
 		ctext = "rename SubtitleCreator\\Data\\Settings.xml Settings-shadow.xml";
 		writer.println(ctext);
 
@@ -198,7 +198,7 @@ public class FileOperations {
 		writer.println(ctext);
 		// ------
 
-		// zmiana settingsów:
+		// zmiana settings?w:
 		ctext = "rename SubtitleCreator\\Data\\Settings.xml Settings-plain.xml";
 		writer.println(ctext);
 
@@ -240,15 +240,15 @@ public class FileOperations {
 	}
 
 	/**
-	 * Dodaje plikt .bat od stworzenia mkv z podanym filmem dodaj¹c napisy idx i
-	 * srt. Polecenie zpisane do pliku po wywo³aniu close().
+	 * Dodaje plikt .bat od stworzenia mkv z podanym filmem dodaj?c napisy idx i
+	 * srt. Polecenie zpisane do pliku po wywo?aniu close().
 	 * 
 	 * @param videoFile
 	 *            film do stworzenia mkv
 	 * @param path
-	 *            œcie¿ka gdzie zostanie utworzone mkv
+	 *            ?cie?ka gdzie zostanie utworzone mkv
 	 */
-	public void createMKV(String videoFile, String path) {
+	void createMKV(String videoFile, String path) {
 		String subFile = FilenameUtils.removeExtension(videoFile) + "1.idx";
 		String subFile2 = FilenameUtils.removeExtension(videoFile) + "2.idx";
 		String subFile3 = FilenameUtils.removeExtension(videoFile) + "3.idx";
@@ -265,13 +265,13 @@ public class FileOperations {
 				+ FilenameUtils.removeExtension(FilenameUtils
 						.getName(videoFile)) + "-PanaSubtitler.mkv" + "\"";
 
-		if (new File(srtFile).exists() == true) {
-			if (makeTSMuxerSubs == true)
+		if (new File(srtFile).exists()) {
+			if (makeTSMuxerSubs)
 				convertSRTtoSUBTS(videoFile);
 			else
 				subTS = "";
 
-			if (ifMakeSUB == true) {
+			if (ifMakeSUB) {
 				this.convertSRTtoSUB(videoFile);
 				subFile = "\"" + subFile + "\"";
 				subFile2 = "\"" + subFile2 + "\"";
@@ -293,7 +293,7 @@ public class FileOperations {
 
 		boolean srtExist = new File(srtFile).exists();
 
-		if (srtExist == false)
+		if (!srtExist)
 			srtFile = "";
 		else
 			srtFile = "\"" + srtFile + "\"";
@@ -309,12 +309,12 @@ public class FileOperations {
 
 		writer.println(ctext);
 
-		if (ifMakeSUB == true)
+		if (ifMakeSUB)
 			deleteSubs(videoFile);
 
 	}
 
-	public void open() {
+	void open() {
 		try {
 			writer = new PrintWriter("program.bat", "UTF-8");
 		} catch (FileNotFoundException | UnsupportedEncodingException e) {
@@ -323,7 +323,7 @@ public class FileOperations {
 		}
 	}
 
-	public void close() {
+	void close() {
 		writer.close();
 	}
 
@@ -337,13 +337,13 @@ public class FileOperations {
 	 * @param FILE_DIR
 	 *            folder
 	 */
-	public void listFiles(String folder, String ext, String FILE_DIR) {
+	void listFiles(String folder, String ext, String FILE_DIR) {
 
 		GenericExtFilter filter = new GenericExtFilter(ext);
 
 		File dir = new File(folder);
 
-		if (dir.isDirectory() == false) {
+		if (!dir.isDirectory()) {
 			System.out.println("Directory does not exists : " + FILE_DIR);
 			if (!this.videoFilesList.contains(folder))
 				this.videoFilesList.add(folder);
@@ -367,11 +367,11 @@ public class FileOperations {
 	}
 
 	// inner class, generic extension filter
-	public class GenericExtFilter implements FilenameFilter {
+	private class GenericExtFilter implements FilenameFilter {
 
 		private String ext;
 
-		public GenericExtFilter(String ext) {
+		GenericExtFilter(String ext) {
 			this.ext = ext;
 		}
 
@@ -380,15 +380,15 @@ public class FileOperations {
 		}
 	}
 
-	public void setMkvmergePath(String mkvmergePath) {
+	void setMkvmergePath(String mkvmergePath) {
 		this.mkvmergePath = mkvmergePath;
 	}
 
-	public void setScPath(String scPath) {
+	void setScPath(String scPath) {
 		this.scPath = scPath;
 	}
 
-	public void setIfMakeSUB(boolean ifMakeSUB) {
+	void setIfMakeSUB(boolean ifMakeSUB) {
 		this.ifMakeSUB = ifMakeSUB;
 	}
 
